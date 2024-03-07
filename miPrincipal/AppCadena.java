@@ -6,20 +6,18 @@ public class AppCadena {
         
         Cadena c = new Cadena();
         
-        c.agregarFinal('M');
-        c.agregarFinal('a');
-        c.agregarFinal('r');
-        c.agregarFinal('1');
+        c.agregarFinal('L');
+        c.agregarFinal('u');
+        c.agregarFinal('c');
+        c.agregarFinal('i');
         c.agregarFinal('a');
         
         System.out.println("valor de c: " + c);
         
         System.out.println("Invertida: " + c.invertir());
         
-        c.borrarInicio();
+      
         
-        System.out.println("valor de c: " + c);
         
-        System.out.println("Invertida: " + c.invertir());
     }
 }

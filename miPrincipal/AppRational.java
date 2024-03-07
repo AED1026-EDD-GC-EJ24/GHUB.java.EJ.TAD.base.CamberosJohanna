@@ -25,9 +25,9 @@ public class AppRational {
             Rational r2 = new Rational(a, b);
             
             System.out.println(r2);
-            System.out.println("Suma = " + r1.toString() + " + " + r2.toString() + " = " + r1.add(r2).toString());
-            System.out.println("Multiplica = " + r1.toString() + " * " + r2.toString() + " = " + r1.mult(r2).toString());
-            System.out.println("¿Son Iguales? = " + r1.toString() + " == " + r2.toString() + " " + r1.equals(r2));
+            System.out.println("Suma = "  + r1.add(r2).toString());
+            System.out.println("Multiplica = "  + r1.mult(r2).toString());
+            System.out.println("¿Son Iguales? = " + r1.equals(r2));
         } 
     }
 }
